@@ -1,0 +1,15 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&f[]=inter@700,500,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0D1117;
+  color: #F0F6FC;
+  font-family: 'Satoshi', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Inter', sans-serif;
+}
